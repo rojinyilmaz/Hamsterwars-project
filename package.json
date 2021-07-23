@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start-server": "node server.js",
-	"evaluate": "npx http-server evaluate/",
+    "evaluate": "npx http-server evaluate/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "firebase-admin": "^9.11.0"
   }
 }
